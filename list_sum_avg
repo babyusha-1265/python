@@ -1,0 +1,9 @@
+l = []
+sum = 0
+for _ in range(5):
+    l.append(int(input()))
+    sum +=  l[_]
+
+print("sum =", sum)
+print("avg =", sum/5)
+    
