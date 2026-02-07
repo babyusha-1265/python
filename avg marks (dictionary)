@@ -1,0 +1,12 @@
+d = {
+    "maths" : 45,
+    "pys" : 32,
+    "eng" : 31
+}
+
+sum = 0
+for key,value in d.items():
+    sum += value
+    
+print(d)
+print("Avg of marks: ", sum/3)
