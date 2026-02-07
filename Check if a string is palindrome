@@ -1,0 +1,9 @@
+s = input()
+
+rev = s[::-1]
+
+for i in range(0, len(s)):
+    if s[i] != rev[i]:
+        print("%s is not a palindrome",s)
+        break
+    print("%s is Palindrome", s)
