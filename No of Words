@@ -1,0 +1,8 @@
+s = input()
+count = 1 
+
+for i in range(0,len(s)):
+    if s[i] == " ":
+        count += 1 
+        
+print("No of words in text: ", count)
