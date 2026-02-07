@@ -1,0 +1,8 @@
+numbers = [10,45,22,99,31]
+
+largest = numbers[0]
+for _ in range(1,len(numbers)):
+    if largest < numbers[_]:
+        largest = numbers[_]
+    
+print("Largest number in list: ",largest)
