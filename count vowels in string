@@ -1,0 +1,7 @@
+s = input()
+ls = s.lower()
+c = 0
+for i in range(len(s)):
+    if ls[i] == 'a' or ls[i] == 'e'or ls[i] == 'i' or ls[i] == 'o' or ls[i] == 'u' :
+        c += 1 
+print(c)
